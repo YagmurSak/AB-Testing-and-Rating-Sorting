@@ -1,7 +1,16 @@
 ## Comparison Bidding Methods with A/B Testing
 
+
+
 ## BUSINESS PROBLEM
 
+# Facebook recently introduced a new bid type called "average bidding" as an alternative to the existing bidding type called "maximumbidding".
+# One of our customers, bombabomba.com, decided to test this new feature and wanted to run an A/B test to see if averagebidding would bring more 
+# conversions than maximumbidding. The A/B test has been running for 1 month and bombabomba.com now expects you to analyze the results of this A/B test. 
+# For bombabomba.com, the ultimate success metric is Purchase. Therefore, the focus for statistical tests should be on the Purchase metric.
+
+
+## Story of the Dataset
 # This data set, which contains information about a company's website, includes information such as the number of ads
 # that users have seen and clicked on, as well as the income information from there. There are two separate data sets,
 # Control and Test groups. Maximum Bidding was applied to the control group, and AverageBidding was applied to the test group.
