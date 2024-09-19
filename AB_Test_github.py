@@ -1,6 +1,4 @@
-## Comparison Bidding Methods with A/B Testing
-
-
+## COMPARISON BIDDING METHODS with AB TESTING
 
 ## BUSINESS PROBLEM
 
