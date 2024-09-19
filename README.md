@@ -6,6 +6,4 @@ This dataset, which contains Amazon product data, includes product categories an
 
 ## Comparison Bidding Methods with A/B Testing
 
-This data set, which contains information about a company's website, includes information such as the number of ads that users have seen and clicked on, as well as the income information from there. There are two separate data sets, Control and Test groups. Maximum Bidding was applied to the control group, and AverageBidding was applied to the test group. I applied the AB test to see if there really is a difference between these two biddigs.
-
-
+Facebook recently introduced a new bid type called "averagebidding" as an alternative to the existing bidding type called "maximumbidding".This data set, which contains information about a company's website, includes information such as the number of ads that users have seen and clicked on and the income information from there. I applied the AB test to see if averagebidding would bring more conversions than maximumbidding.
