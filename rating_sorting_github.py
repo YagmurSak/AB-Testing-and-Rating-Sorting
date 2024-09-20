@@ -87,7 +87,7 @@ df["score_pos_neg_diff"] = df.apply(lambda x: score_pos_neg_diff(x["helpful_yes"
                                                                  x["helpful_no"]), axis=1)
 
 
-## Ratio of helpful reviews to all reviewa
+## Ratio of helpful reviews to all reviews
 
 df["score_average_rating"] = df.apply(lambda x: score_average_rating(x["helpful_yes"],
                                                                    x["helpful_no"]), axis=1 )
@@ -98,7 +98,7 @@ df["score_average_rating"] = df.apply(lambda x: score_average_rating(x["helpful_
 df["wilson_lower_bound"] = df.apply(lambda x: wilson_lower_bound(x["helpful_yes"],
                                                                    x["helpful_no"]), axis=1 )
 
-## 20 Reviews to be Displayed on Product Detail Page for the Product
+## 20 Reviews to be displayed on the Product Detail Page for the Product
 
 df.sort_values("wilson_lower_bound" , ascending=False)[:20]
 
