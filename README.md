@@ -1,5 +1,5 @@
 
-### 1. RATING PRODUCT & SORTING REVIEWS IN AMAZON ###
+## Rating Product & Sorting Reviews in Amazon
 
 This dataset, which contains Amazon product data, includes product categories and various metadata. The product with the most comments in the electronics category has user ratings and comments. I have determined the reviews to be displayed on the product detail page of the product.
 
